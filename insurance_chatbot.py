@@ -180,7 +180,7 @@ if st.session_state.vector_store_created:
             st.session_state.chat_history.append(answer)
 
             # Force a rerun to display the updated chat
-            st.experimental_rerun()
+        
 else:
     st.info("Please upload your insurance data first using the sidebar.")
 
