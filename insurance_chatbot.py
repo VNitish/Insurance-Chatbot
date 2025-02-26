@@ -187,7 +187,6 @@ def cleanup():
 # Register cleanup
 st.cache_resource.clear()
 
-!pip install streamlit pandas langchain faiss-cpu transformers torch openpyxl sentence-transformers
 
 
 
