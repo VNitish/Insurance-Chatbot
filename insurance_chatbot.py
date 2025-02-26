@@ -95,9 +95,9 @@ def process_excel_data(uploaded_file):
 
 # Function to create vector store
 @st.cache_resource
-def create_vectorstore(chunks, embeddings):
-    vectorstore = FAISS.from_documents(chunks: tuple, embeddings)
+def create_vectorstore(chunks: tuple, embeddings):
     chunks = list(chunks)
+    vectorstore = FAISS.from_documents(chunks, embeddings)
     return vectorstore
 
 # Initialize session state variables
