@@ -78,7 +78,7 @@ def process_excel_data(uploaded_file):
         f.write(uploaded_file.getbuffer())
 
     # Read csv file
-    df = pd.read_csv("iciciprulife_faqs.csv", index=False)
+    df = pd.read_csv("iciciprulife_faqs.csv")
 
     # Load documents
     loader = CSVLoader(file_path="iciciprulife_faqs.csv")
