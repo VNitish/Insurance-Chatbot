@@ -2,7 +2,7 @@ streamlit
 pandas
 langchain
 faiss-cpu
-transformers
+transformers == 4.35.0
 torch
 openpyxl
 sentence-transformers
