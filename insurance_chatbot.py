@@ -8,7 +8,7 @@ Original file is located at
 """
 # pip install streamlit        
 # pip install pandas
-# pip install langchain
+!pip install langchain
 # pip install faiss-cpu
 # pip install transformers
 # pip install torch
