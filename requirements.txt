@@ -7,3 +7,4 @@ torch
 openpyxl
 sentence-transformers
 langchain_community
+accelerate
