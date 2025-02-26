@@ -114,7 +114,7 @@ st.subheader("Upload your insurance data or start chatting")
 # Sidebar for data upload and system config
 with st.sidebar:
     st.header("Upload Data")
-    uploaded_file = st.file_uploader("Upload Insurance Excel Data", type=["xlsx", "xls"])
+    uploaded_file = st.file_uploader("Upload Insurance Excel Data", type=["csv"])
 
     if uploaded_file is not None and not st.session_state.vector_store_created:
         with st.spinner("Processing your insurance data..."):
